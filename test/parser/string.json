@@ -1,0 +1,40 @@
+[
+    "",
+    " ",
+    "a",
+    "\n",
+    "\r",
+    "x\rx\nx\tx\fx",
+    "\"",
+
+    "#",
+
+    "a b c d",
+    "a b c d",
+    "a b c d",
+    "a b c d",
+    "a b c d",
+    "a b c d",
+    "a bc d",
+    "a b c d",
+
+    "",
+    "a",
+    "\n",
+    "\r",
+    "x\rx\nx\tx\fx",
+
+    "",
+    " ",
+    "",
+    "",
+    "a",
+    "x\rx\nx\tx\fx",
+    "x\rx\nx\tx\fx",
+    "x\rx\nx\tx\fx",
+    "a\nb",
+    "a\n  b",
+    "  a\nb",
+    "a\n  b",
+    "ab"
+]

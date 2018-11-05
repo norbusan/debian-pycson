@@ -1,0 +1,4 @@
+'.source.js':
+    'function()': 'function($1)'
+a: 1
+b: 'test'
