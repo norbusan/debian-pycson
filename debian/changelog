@@ -1,3 +1,9 @@
+pycson (0.7-2) unstable; urgency=medium
+
+  * update VCS, email
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 03 Mar 2019 09:01:35 +0900
+
 pycson (0.7-1) unstable; urgency=medium
 
   * First release (Closes: #912934)
