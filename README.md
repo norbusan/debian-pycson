@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/avakar/pycson.svg?branch=master)](https://travis-ci.org/avakar/pycson)
-
 # pycson
+
+[![Build Status](https://travis-ci.org/avakar/pycson.svg?branch=master)](https://travis-ci.org/avakar/pycson)
 
 A python parser for the Coffeescript Object Notation (CSON).
 
 ## Installation
 
-The parser is tested on Python 2.7 and 3.4.
+The parser is tested on Python 2.7 and 3.5.
 
     pip install cson
 
@@ -38,16 +38,16 @@ In other words, some documents may be parsed differently by the Coffescript pars
 
 Here are some important highlights (see the [formal grammar][3] for details).
 
- * String interpolations (`"#{test}"`) are allowed, but are treated literally.
- * Whitespace is ignored in arrays and in objects enclosed in braces
-   (Coffeescripts requires consistent indentation).
- * Unbraced objects greedily consume as many key/value pairs as they can.
- * All lines in an unbraced object must have the same indentation. This is the only place
-   where whitespace is significant. There are no special provisions for partial dedents.
-   For two lines to have the same indent, their maximal sequences of leading spaces and tabs
-   must be the same (Coffescript only tracks the number of whitespace characters).
- * Unbraced objects that don't start on their own line will never span multiple lines.
- * Commas at the end of the line can always be removed without changing the output.
+* String interpolations (`"#{test}"`) are allowed, but are treated literally.
+* Whitespace is ignored in arrays and in objects enclosed in braces
+  (Coffeescripts requires consistent indentation).
+* Unbraced objects greedily consume as many key/value pairs as they can.
+* All lines in an unbraced object must have the same indentation. This is the only place
+  where whitespace is significant. There are no special provisions for partial dedents.
+  For two lines to have the same indent, their maximal sequences of leading spaces and tabs
+  must be the same (Coffescript only tracks the number of whitespace characters).
+* Unbraced objects that don't start on their own line will never span multiple lines.
+* Commas at the end of the line can always be removed without changing the output.
 
 I believe the above rules make the parse unambiguous.
 

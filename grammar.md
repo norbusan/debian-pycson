@@ -1,3 +1,5 @@
+# CSON grammar
+
 This is a formal grammar for the language parsed by pycson.
 It uses the standard [PEG syntax][1] with an extension
 to support indent sensitivity: for a PEG expression `E`,
