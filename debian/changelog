@@ -1,8 +1,9 @@
-pycson (0.7-4) UNRELEASED; urgency=medium
+pycson (0.8-1) unstable; urgency=medium
 
   * add a watch file
+  * New upstream version 0.8
 
- -- Norbert Preining <norbert@preining.info>  Wed, 19 Feb 2020 04:59:00 +0900
+ -- Norbert Preining <norbert@preining.info>  Wed, 19 Feb 2020 05:00:20 +0900
 
 pycson (0.7-3) unstable; urgency=medium
 
